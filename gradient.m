@@ -1,12 +1,4 @@
 clear all;clc;close all;
-% opt.algorithm = NLOPT_LD_MMA;
-% opt.lower_bounds = [-inf, 0];
-% opt.min_objective = @myfunc;
-% opt.fc = { (@(x) myconstraint(x,2,0)), (@(x) myconstraint(x,-1,1)) };
-% opt.fc_tol = [1e-8, 1e-8];
-% opt.xtol_rel = 1e-4;
-% opt.verbose = 1;
-% [xopt, fmin, retcode] = nlopt_optimize(opt, [1.234 5.678])
 syms x_0 y_0 theta_0
 syms x_f y_f theta_f
 syms s_t
@@ -41,5 +33,5 @@ ftf = (theta_s_f- theta_f)^2;
 
 fbe_grad = gradient(fbe, p);
 fxf_grad = gradient(fxf, p);
-fyf_grad = gradient(fyf, p)
+fyf_grad = gradient(fyf, p);
 ftf_grad = gradient(ftf, p);
