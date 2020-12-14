@@ -6,9 +6,17 @@ Here, I used the `syms` in matlab to get the expression of the objective functio
   
 Then, I tried to use `L-BFGS-B` to solve this nolinear programming problem. Run __cubic_spiral.m__ to get the example of cubic spiral. The following images show different cubic spirals when they end at different poses.  
   
-__kappa_final = 0 theta_final = 0.5*pi:__
-![image](https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20curvature:k_f%20%3D%200.0%2Ctheta%20%3D%200.5pi.png)  
-![image](https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20position:k_f%20%3D%200.0%2Ctheta%20%3D%200.5pi.png)
+__kappa_final = 0 theta_final = 0.5*pi:__  
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20position:k_f%20%3D%200.0%2Ctheta%20%3D%200.5pi.png width="500" height="400"/><br/>
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20curvature:k_f%20%3D%200.0%2Ctheta%20%3D%200.5pi.png width="500" height="400"/><br/> 
+  
+__kappa_final = 0.15 theta_final = 0.5*pi:__  
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20position:k_f%20%3D%200.15%2Ctheta%20%3D%200.5pi.png width="500" height="400"/><br/>
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20curvature:k_f%20%3D%200.15%2Ctheta%20%3D%200.5%20pi.png width="500" height="400"/><br/> 
+  
+__kappa_final = 0.15 theta_final = pi:__  
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20position:k_f%20%3D%200.15%2Ctheta%20%3D%20pi.png  width="500" height="400"/><br/>
+<img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20curvature:k_f%20%3D%200.15%2Ctheta%20%3D%20pi.png width="500" height="400"/><br/> 
 
 ## Reference
 [Self driving courses in Coursera] https://github.com/qiaoxu123/Self-Driving-Cars/blob/master/Part4-Motion_Planning_for_Self-Driving_Cars/Module7-Putting_it_all_together-Smooth_Local_Planning/Module7-Putting_it_all_together-Smooth_Local_Planning.md
