@@ -4,7 +4,7 @@ This is a matlab version to generate the cubic spiral which is illustrated in [S
   
 Here, I used the `syms` in matlab to get the expression of the objective function and its gradient. The reason why I use this method to calculate the gradient is that it's difficult to get the correct one by manual computation. Please refer to [gradient.m](https://github.com/xilinnancheng/cubic_spiral/blob/master/gradient.m) and [gradient.txt](https://github.com/xilinnancheng/cubic_spiral/blob/master/gradient.txt) for details.  
   
-Then, I tried to use `L-BFGS-B` to solve this nolinear programming problem. Run __cubic_spiral.m__ to get the example of cubic spiral. The following images show different cubic spirals when they end at different poses.  
+Then, I tried to use `L-BFGS-B` to solve this nolinear programming problem. Run [cubic_spiral.m](https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral.m) to get the example of cubic spiral. The following images show different cubic spirals when they end at different poses.  
   
 __kappa_final = 0 theta_final = 0.5*pi:__  
 <img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20position:k_f%20%3D%200.0%2Ctheta%20%3D%200.5pi.png width="500" height="400"/><br/>
