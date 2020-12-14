@@ -18,15 +18,9 @@ delta_y = 0.0;
 num = 2;
 
 %% main loop
-<<<<<<< HEAD
-for main_loop_index = -num:1:num
-    xf_tmp = xf + main_loop_index * delta_x;
-    yf_tmp = yf + main_loop_index * delta_y;
-=======
 for index = -num:1:num
     xf_tmp = xf + index * delta_x;
     yf_tmp = yf + index * delta_y;
->>>>>>> 08a09a449dff8ddd62faa9fecfcf86a3efae381b
     thetaf_tmp = thetaf;
     kf_tmp = kf;
     target = [xf_tmp,yf_tmp,thetaf_tmp,kf_tmp];
@@ -57,10 +51,7 @@ for index = -num:1:num
 
     theta = zeros(1,size(s_sampled,2));
     for index = 1:size(theta,2)
-<<<<<<< HEAD
-=======
     %     theta(index) = subs(theta_s(theta0,s),s,s_sampled(index));
->>>>>>> 08a09a449dff8ddd62faa9fecfcf86a3efae381b
         theta(index) = theta_s(s_sampled(index));
     end
     subplot(2,1,2);
