@@ -2,7 +2,7 @@
 ## Introduction
 This is a matlab version to generate the cubic spiral which is illustrated in __Reference One__.  
   
-Here, I used the `syms` in matlab to get the expression of the obejective function and its gradient. The reason why I use this method to calculate the gradient is that it's difficult to get the correct one by manual computation. Please refer to __gradient.m__ and __gradient.txt__.  
+Here, I used the `syms` in matlab to get the expression of the objective function and its gradient. The reason why I use this method to calculate the gradient is that it's difficult to get the correct one by manual computation. Please refer to __gradient.m__ and __gradient.txt__.  
   
 Then, I tried to use `L-BFGS-B` to solve this nolinear programming problem. Run __cubic_spiral.m__ to get the result.
 
