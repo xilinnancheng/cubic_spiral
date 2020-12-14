@@ -19,6 +19,6 @@ __kappa_final = 0.15 theta_final = pi:__
 <img src=https://github.com/xilinnancheng/cubic_spiral/blob/master/cubic_spiral_example/spiral%20curvature:k_f%20%3D%200.15%2Ctheta%20%3D%20pi.png width="500" height="400"/><br/> 
 
 ## Reference
-[Self driving courses in Coursera] https://github.com/qiaoxu123/Self-Driving-Cars/blob/master/Part4-Motion_Planning_for_Self-Driving_Cars/Module7-Putting_it_all_together-Smooth_Local_Planning/Module7-Putting_it_all_together-Smooth_Local_Planning.md
+[Self driving courses in Coursera](https://github.com/qiaoxu123/Self-Driving-Cars/blob/master/Part4-Motion_Planning_for_Self-Driving_Cars/Module7-Putting_it_all_together-Smooth_Local_Planning/Module7-Putting_it_all_together-Smooth_Local_Planning.md)
 
-[L-BFGS-B Optimizer] https://github.com/stephenbeckr/L-BFGS-B-C
+[L-BFGS-B Optimizer](https://github.com/stephenbeckr/L-BFGS-B-C)
